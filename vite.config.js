@@ -33,6 +33,14 @@ function headTags(attrs) {
   <meta name="twitter:title" content="${esc(a.title)}">
   <meta name="twitter:description" content="${esc(a.desc)}">
   <meta name="twitter:image" content="${image}">
+  <script>
+    // Hide-then-reveal animations only run with JS and when motion is allowed.
+    // If main.js has not run after 3s, drop the class so nothing stays hidden.
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('js');
+      setTimeout(function () { if (!window.__vouchReady) document.documentElement.classList.remove('js'); }, 3000);
+    }
+  </script>
   <link rel="stylesheet" href="/src/styles.css">`;
 }
 

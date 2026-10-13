@@ -34,6 +34,7 @@ Everything shared lives in **`site.config.js`**. Change a value, rebuild, and ev
 | Site URL (canonical, Open Graph) | `url` in `site.config.js` |
 | Nav and footer | `src/partials/header.html`, `src/partials/footer.html` |
 | Colors, spacing, type | top of `src/styles.css` (`:root` variables) |
+| Scroll reveal and strip animation | `src/main.js` (off when the visitor prefers reduced motion) |
 | Pilot form checks | `src/pilot.js` |
 
 ## How the pages are put together

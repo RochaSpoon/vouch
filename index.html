@@ -18,10 +18,11 @@
 <!--@include header-->
 <main id="main">
 
+  <!-- HERO -->
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow">For SEO and digital marketing agencies</p>
-      <h1>Review replies your clients will think you wrote.</h1>
+      <p class="eyebrow">For agencies that manage Google Business Profiles</p>
+      <h1>Review replies<br>your clients will<br><span class="accent">think you wrote.</span></h1>
       <p class="lead">Vouch SoCal drafts replies in each client's voice and posts them after your team approves. Handle more locations without hiring more people.</p>
       <div class="btn-row">
         <a href="/pilot" class="btn btn-primary">Start a free pilot</a>
@@ -30,36 +31,84 @@
     </div>
   </section>
 
-  <section class="section section-tint" aria-labelledby="steps-h">
-    <div class="wrap">
-      <h2 id="steps-h">Three steps. Your team stays in charge.</h2>
-      <div class="grid grid-3">
-        <div class="card">
-          <span class="step-num" aria-hidden="true">1</span>
-          <h3>Connect your clients' profiles</h3>
-          <p>Link each Google Business Profile through Google's own permission screen. We never ask for a password.</p>
-        </div>
-        <div class="card">
-          <span class="step-num" aria-hidden="true">2</span>
-          <h3>Set a voice for each location</h3>
-          <p>Tone, selling points, and things never to say. Every location gets its own profile.</p>
-        </div>
-        <div class="card">
-          <span class="step-num" aria-hidden="true">3</span>
-          <h3>Approve, then post</h3>
-          <p>New reviews get a draft. Your team reads it, edits it if needed, and approves it. Then it posts.</p>
+  <!-- STRIP -->
+  <section class="strip" aria-label="Who Vouch SoCal is for">
+    <p class="eyebrow strip-label" style="color:var(--subtext)">Built for the people who run local search for other businesses</p>
+    <div class="marquee">
+      <div class="marquee-track"><span>SEO agencies</span><span>·</span><span>Digital marketing agencies</span><span>·</span><span>Local SEO teams</span><span>·</span><span>Reputation managers</span><span>·</span></div>
+      <div class="marquee-track" aria-hidden="true"><span>SEO agencies</span><span>·</span><span>Digital marketing agencies</span><span>·</span><span>Local SEO teams</span><span>·</span><span>Reputation managers</span><span>·</span></div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section" aria-labelledby="problem-h">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow eyebrow-clay">What's actually broken</p>
+        <h2 id="problem-h">Every client wants replies.<br>Every reply takes a person.</h2>
+        <p class="lead">Replying to reviews is repetitive work, and it grows with every location you add. Hire for it and your margin shrinks. Skip it and your clients notice.</p>
+        <ul class="check-list" style="margin-top:2rem">
+          <li>Drafts written in each client's voice, so replies don't read like a template</li>
+          <li>One queue for every location, with a person approving before anything posts</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))">
+          <div class="card">
+            <span class="tag">Illustrative example · Voice profile</span>
+            <p style="font-weight:700;margin-bottom:0.8rem">Juniper Lane Bakery</p>
+            <dl class="kv">
+              <div><dt>Tone</dt><dd>Warm, brief, first names</dd></div>
+              <div><dt>Mention</dt><dd>Baked fresh at 6 a.m.</dd></div>
+              <div><dt>Never say</dt><dd>"Discount", "sorry for any inconvenience"</dd></div>
+            </dl>
+          </div>
+          <div class="card card-dark card-lift" style="margin-top:0">
+            <span class="tag">Illustrative example · Held</span>
+            <p style="font-weight:700;margin-bottom:0.3rem;color:var(--oat)">Northgate Tire &amp; Auto</p>
+            <p style="margin-bottom:0.8rem"><span class="stars" aria-hidden="true">★★☆☆☆</span><span class="sr-only">2 stars</span></p>
+            <p style="font-size:0.95rem">Draft ready. A person has to approve it before it posts.</p>
+            <span class="chip chip-honey">Waiting for a person</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- HOW IT WORKS -->
+  <section class="section section-dark on-dark grain" aria-labelledby="steps-h">
+    <div class="wrap">
+      <p class="eyebrow">How it works</p>
+      <h2 id="steps-h" style="max-width:20ch">Three steps. Your team stays in charge.</h2>
+      <div class="steps3">
+        <div>
+          <span class="num" aria-hidden="true">01</span>
+          <h3>Connect your clients' profiles</h3>
+          <p>Link each Google Business Profile through Google's own permission screen. We never ask for a password.</p>
+        </div>
+        <div>
+          <span class="num" aria-hidden="true">02</span>
+          <h3>Set a voice for each location</h3>
+          <p>Tone, selling points, and things never to say. Every location gets its own profile.</p>
+        </div>
+        <div>
+          <span class="num" aria-hidden="true">03</span>
+          <h3>Approve, then post</h3>
+          <p>New reviews get a draft. Your team reads it, edits it if needed, and approves it. Then it posts.</p>
+        </div>
+      </div>
+      <div class="btn-row"><a href="/how-it-works" class="btn btn-secondary">See the full walkthrough</a></div>
+    </div>
+  </section>
+
+  <!-- APPROVAL QUEUE -->
   <section class="section" aria-labelledby="queue-h">
     <div class="wrap">
-      <div class="narrow">
-        <h2 id="queue-h">One queue for every location.</h2>
-        <p class="lead">Drafts wait here. Positive reviews can post on their own if you allow it. Negative reviews always wait for a person.</p>
-      </div>
-      <figure class="mock" style="margin: 2rem 0 0;">
+      <p class="eyebrow">The approval queue</p>
+      <h2 id="queue-h" style="max-width:18ch">One queue for every location.</h2>
+      <p class="lead">Drafts wait here. Positive reviews can post on their own if you allow it. Negative reviews always wait for a person.</p>
+      <figure class="mock">
         <figcaption class="mock-bar">
           <span>Reply queue</span>
           <span>3 locations · 3 drafts</span>
@@ -101,55 +150,77 @@
     </div>
   </section>
 
-  <section class="section section-dark on-dark" aria-labelledby="safe-h">
-    <div class="wrap">
-      <div class="narrow">
-        <p class="eyebrow">Safety</p>
+  <!-- SAFETY -->
+  <section class="section section-card" aria-labelledby="safe-h">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow eyebrow-clay">Safety</p>
         <h2 id="safe-h">A bad auto-reply should never cost you a client.</h2>
         <p class="lead">Negative reviews always wait for a human to approve. No setting turns that off.</p>
-        <ul class="check-list">
+        <ul class="check-list" style="margin-top:1.75rem">
           <li>Auto-post is optional, set per location, and limited to positive reviews.</li>
           <li>Each location has its own "never say" list.</li>
           <li>We never ask for passwords.</li>
         </ul>
-        <div class="btn-row"><a href="/safety" class="btn btn-primary">Read how safety works</a></div>
+        <div class="btn-row"><a href="/safety" class="btn btn-secondary">Read how safety works</a></div>
+      </div>
+      <div class="card card-dark card-lift" style="padding:2.25rem">
+        <span class="tag">Always on</span>
+        <p style="font-size:clamp(1.5rem,3vw,2rem);font-weight:600;line-height:1.2;letter-spacing:-0.02em;color:var(--oat);margin-bottom:0.75rem">A person approves every negative review reply.</p>
+        <p>There is no setting that lets one through on its own.</p>
       </div>
     </div>
   </section>
 
+  <!-- NUMBERS -->
   <section class="section" aria-labelledby="why-h">
     <div class="wrap">
-      <h2 id="why-h">Why replies are worth your clients' time</h2>
-      <div class="grid grid-2">
-        <figure class="card stat" style="margin:0">
+      <p class="eyebrow">Numbers over adjectives</p>
+      <h2 id="why-h" style="max-width:20ch">Why replies are worth your clients' time.</h2>
+      <div class="grid grid-2" style="margin-top:2.5rem">
+        <figure class="card stat">
           <span class="stat-num">97%</span>
-          <p>of consumers read online reviews for local businesses.</p>
+          <p style="margin:0">of consumers read online reviews for local businesses.</p>
           <p class="source">Source: BrightLocal Local Consumer Review Survey</p>
         </figure>
-        <figure class="card stat" style="margin:0">
+        <figure class="card stat">
           <span class="stat-num">5 to 9%</span>
-          <p>A one-star Yelp rating increase raised restaurant revenue 5 to 9%.</p>
+          <p style="margin:0">A one-star Yelp rating increase raised restaurant revenue 5 to 9%.</p>
           <p class="source">Source: Harvard Business School study</p>
         </figure>
       </div>
-      <p class="lead" style="margin-top:1.5rem">We don't promise ratings, rankings, or revenue. We promise your team spends less time writing replies, and that every reply is approved before it posts.</p>
+      <p class="lead" style="margin-top:2rem">We don't promise ratings, rankings, or revenue. We promise your team spends less time writing replies, and that every reply is approved before it posts.</p>
     </div>
   </section>
 
-  <section class="section section-tint" aria-labelledby="price-h">
+  <!-- PRICING TEASER -->
+  <section class="section section-card" aria-labelledby="price-h">
     <div class="wrap">
-      <div class="grid grid-2" style="align-items:center">
-        <div>
-          <h2 id="price-h">${{price}} per location per month</h2>
-          <p class="lead">{{minLocations}} location minimum. You set your own price for your clients and keep the margin.</p>
-          <p><a href="/pricing">See pricing details</a></p>
+      <p class="eyebrow">Pricing</p>
+      <h2 id="price-h" style="max-width:20ch">Simple, per location.</h2>
+      <div class="grid grid-2" style="margin-top:2.5rem;align-items:stretch">
+        <div class="card card-dark card-lift">
+          <span class="tag">Per location</span>
+          <p class="price">${{price}} <small>per location per month</small></p>
+          <p>{{minLocations}} location minimum. You set your own price for your clients and keep the margin.</p>
+          <a href="/pricing" class="btn btn-secondary">See pricing details</a>
         </div>
-        <div class="card card-featured">
-          <h3>Founding pilot</h3>
-          <p>Free for {{pilotDays}} days on {{pilotLocations}} of your client locations. For our first agencies.</p>
+        <div class="card card-lift">
+          <span class="tag">Founding pilot</span>
+          <p class="price">Free <small>for {{pilotDays}} days</small></p>
+          <p style="color:var(--subtext)">On {{pilotLocations}} of your client locations. For our first agencies.</p>
           <a href="/pilot" class="btn btn-primary">Start a free pilot</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- CLOSING CTA -->
+  <section class="section section-dark on-dark grain" aria-labelledby="cta-h" style="text-align:center">
+    <div class="wrap narrow">
+      <h2 id="cta-h">This is <span class="accent">Vouch SoCal.</span></h2>
+      <p class="lead" style="margin-inline:auto">Two students in Long Beach, building review replies for agencies on purpose. Try it on a few of your clients and tell us what's wrong with it.</p>
+      <div class="btn-row" style="justify-content:center"><a href="/pilot" class="btn btn-primary">Start a free pilot</a></div>
     </div>
   </section>
 
