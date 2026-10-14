@@ -1,5 +1,11 @@
 # Project context: Vouch SoCal agency site rebuild
 
+> **Update 2026-10-14: direction changed.** This document describes the first plan, which replaced the main site with an agency-only site.
+> The founders decided instead to market the agency product as a **second product under the existing website**. The original site is kept
+> and the agency pages live at `/agencies`. The current, correct record is in the `vouchltd/VOUCHWEBSITE` repo
+> (`docs/PROJECT_CONTEXT.md`, pull request 2). This repo's Vite site is now a prototype only. Do not deploy it to the live domain.
+
+
 This is a curated record of the working session (not a raw transcript), so a future session or person can pick up without the chat.
 Written 2026-10-13. Branch: `claude/jolly-knuth-auqtav`.
 
